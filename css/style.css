@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100..900;1,100..900&family=Changa+One:ital@0;1&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Fjalla+One&family=Gabarito:wght@400..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Metamorphous&family=Orbitron:wght@400..900&family=Permanent+Marker&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Righteous&family=Roboto:ital,wght@0,100..900;1,100..900&family=Trade+Winds&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Yesteryear&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.deep {
+    height: 100vh;
+    width: 100vw;
+
+}
+
+.cabecalho {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 75px;
+    background-color: #45B3C2;
+}
+
+.cabecalho figure img {
+    width: 180px;
+}
+
+.cabecalho nav ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+
+}
+
+.cabecalho nav ul li {}
+
+.links {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    transition: 0.3s;
+
+}
+
+.links:hover {
+    color: #45B3C2;
+    transition: 0.3s;
+}
+
+/* Cabeçalho */
+
+/* Meio */
+
+.middle {
+    height: 91%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../assets/img-paisagem.png");
+    background-size: cover;
+    background-position: center;
+    
+
+}
+
+.front-middle {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+
+.middle h2 {
+
+    font-family: "Inter", sans-serif;
+    font-size: 35px;
+    color: #eee;
+}
+
+.middle h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 63px;
+    color: #eee;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 30px;
+    font-family: "Inter", sans-serif;
+    font-size: 28px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+    color: #45B3C2;
+    border: 2px solid #45B3C2;
+    cursor: pointer;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: #45B3C2;
+    color: #eee;
+    transition: 0.3s;
+}
