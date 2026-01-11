@@ -11,6 +11,8 @@
 .deep {
     height: 100vh;
     width: 100vw;
+    overflow-x: hidden;
+    overflow-y: hidden;
 
 }
 
@@ -33,7 +35,6 @@
 
 }
 
-.cabecalho nav ul li {}
 
 .links {
     text-decoration: none;
@@ -81,6 +82,7 @@
     font-family: "Inter", sans-serif;
     font-size: 35px;
     color: #eee;
+    text-align: center;
 }
 
 .middle h3 {

@@ -1,0 +1,53 @@
+@media screen and (max-width:445px){
+    .cabecalho {
+        padding: 15px 0px;
+    }
+    .cabecalho nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        
+        
+    }
+}
+
+@media screen and (max-width:500px){
+     .cabecalho nav ul {
+        gap: 25px;
+        font-size: 15px;
+    }
+
+      .middle h2 {
+        width: 80%;
+        margin: 0 auto;
+        font-size: 26px;
+    }
+
+    .middle h3 {
+        font-size: 25px;
+    }
+
+
+}
+
+@media screen and (max-width:650px){
+    .cabecalho figure {
+        display: none;
+    }
+
+    .middle h2 {
+        font-size: 26px;
+    }
+
+    .middle h3 {
+        font-size: 55px;
+    }
+
+}
+
+@media screen and (max-width:750px){
+    .cabecalho nav ul {
+        gap: 35px;
+    }
+}
+
+
