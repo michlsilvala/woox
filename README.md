@@ -20,3 +20,7 @@ Praticar:
 │ └── style.css
 │ └── media.css
 │── README.md
+
+## 🌐 Deploy do projeto
+https://michlsilvala.github.io/woox/
+
